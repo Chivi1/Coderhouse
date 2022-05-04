@@ -1,0 +1,33 @@
+.formulario {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    form {
+        width: 35%;
+        border: 1px solid white;
+        margin: 20px;
+        padding: 20px;
+        background-image: linear-gradient(black, grey);
+        background-repeat: repeat-y;
+        overflow: hidden;
+    }
+    label {
+        display: inline block;
+        color: aliceblue;
+        font-size: 23px;
+        font-family: 'Times New Roman', Times, serif;
+        width: 100%;
+        padding: 5px;
+    }
+    .radio{
+        display: none;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    textarea {
+                margin-bottom: 10px;
+                width: 100%;
+                padding: 5px;
+                box-sizing: border-box;
+            }
+}

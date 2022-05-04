@@ -1,0 +1,46 @@
+//map estilos//
+$estilos:(
+    titulo:50px,
+    chico:15px,
+);
+
+.titulo {
+    color: $secundario;
+    font-size: map-get($estilos, titulo);
+    font-family:'Anek Bangla', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+        h1{
+            @extend .titulo;
+        }
+        h2{
+            @extend .titulo;
+        }
+        h3{
+            @extend .titulo;
+        }
+        h4{
+            @extend .titulo;
+        }
+        h5{
+            @extend .titulo;
+        }
+}
+.texto{
+    @extend .titulo;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: map-get($estilos, chico);
+    font-weight: normal;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+}
+.textoizq{
+    @extend .texto;
+    padding: left;
+    width: 30%;
+    height: auto;
+    margin-left: 50px;
+}  

@@ -1,0 +1,45 @@
+.team {
+    display: flex;
+    width: auto;
+    height: 500px;
+    justify-content: center;
+    &:hover {
+        animation: pibes 1s;
+    }
+}
+@keyframes pibes {
+    0% {
+        transform: scale(1.04);
+    }
+
+    100% {
+        transform: scale(1.07);
+    }
+}
+.foto {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    overflow:auto;
+    border-radius: 2px;
+        &:hover {
+            animation: portada 6s
+        }
+}
+@keyframes portada {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.03);
+    }
+}
+.btbl {
+    margin: auto;
+    padding: 25px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    border-radius: 2px;
+}
